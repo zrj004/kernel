@@ -65,7 +65,7 @@ jobs:
           echo "status=success" >> ${GITHUB_OUTPUT}
 
       - name: Delete releases and workflows runs
-        uses: zrj004/delete-releases-workflows@main
+        uses: zrj004/kernel@main
         with:
           delete_releases: false
           delete_tags: false
